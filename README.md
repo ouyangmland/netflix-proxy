@@ -11,7 +11,7 @@ find a Debian or Ubuntu box with root on a clean public IP and run:
 	  && cd ~/netflix-proxy\
 	  && curl -fsSL https://github.com/ouyangmland/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
 	  && ./build.sh\
-          && pip install --user passlib
+        && pip install --user passlib
 See the [**Wiki**](https://github.com/ab77/netflix-proxy/wiki) page(s) for some common troubleshooting ideas.
 
 ... or subscribe to [Unzoner](http://unzoner.com) VPN service to un-block:
